@@ -6,17 +6,17 @@ import aiohttp
 
 
 
-# Список реальных ссылок на изображения и файлы с разных источников
+
 # Эти ссылки используются для демонстрации разницы между синхронным и асинхронным скачиванием
 URLS = [
-    "https://www.w3schools.com/html/pic_trulli.jpg",  # W3Schools - изображение
-    "https://httpbin.org/image/jpeg",  # httpbin.org - синтетическое JPEG
-    "https://httpbin.org/image/png",  # httpbin.org - синтетическое PNG
-    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg",  # Wikimedia - кот JPEG
-    "https://httpbin.org/delay/1",  # httpbin.org - задержка 1 сек (для демо)
-    "https://jsonplaceholder.typicode.com/photos/1",  # JSONPlaceholder - мок данные
-    "https://httpbin.org/status/200",  # httpbin.org - проверка статуса
-    "https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore",  # GitHub - текстовый файл
+    "https://i.pinimg.com/736x/08/3f/6d/083f6dc81a9716a5859d7fa14608daba.jpg",  
+    "https://img.freepik.com/free-photo/beautiful-flowers-with-water-drops_23-2150705667.jpg?t=st=1771473168~exp=1771476768~hmac=79e26bf9af815eee105bba850a24f4a69956e9928b48a9b704c59d1ae7be27b3.jpg",  
+    "https://avatars.mds.yandex.net/get-mpic/1866085/img_id3409906191070785162.jpeg/optimize",  
+    "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg",  
+    "https://media.istockphoto.com/id/915520716/ru/фото/джунгли-листья-фона.jpg?s=2048x2048&w=is&k=20&c=CRFlklRMitW2OMavMjge5WUL_RITFSEydEMxlMKl5dI=",  
+    "https://i.imgur.com/p6Uprj5.jpeg",  
+    "https://images.pling.com/img/00/00/65/01/99/1764224/27-sweet-baby-persian-kitten-on-grass-wallpaper-1920x1080-10wallpaper.com-1.jpg",  
+    "https://img2.joyreactor.cc/pics/post/живность-обои-красивые-картинки-1124060.jpeg",  
 ]
 
 
